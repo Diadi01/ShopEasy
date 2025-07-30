@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+header {
+  background: orange;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+.cart-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.info {
+  flex-grow: 1;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.quantity button {
+  padding: 5px 10px;
+  background: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.checkout {
+  margin-top: 2rem;
+}
+.checkout-btn {
+  background: green;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+footer {
+  background: orange;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

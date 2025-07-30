@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopeasy</title>
+  <link rel="stylesheet" href="shopeasy.css" />
+</head>
+<body>
+
+  <!-- Login Section -->
+  <div class="login-container">
+    <img src="Assets/Shopeasy.png" alt="Shopeasy logo" class="logo" width="80px" height="80px">
+    <h1>Welcome to Shopeasy</h1>
+    <p class="subtitle">
+      Type your e-mail or phone number to log in or 
+      <a href="#" class="link-green">create a Shopeasy account</a>
+    </p>
+    
+    <form class="login-form">
+      <label for="login-email">Email or Mobile Number*</label>
+      <input type="text" id="login-email" autocomplete="username" required />
+
+      <label for="login-password">Password*</label>
+      <input type="password" id="login-password" autocomplete="current-password" required />
+
+      <button type="submit" class="login-btn">Log In</button>
+    </form>
+
+    <p class="terms">
+      By continuing, you agree to Shopeasy's<br />
+      <a href="#" class="link-green">Terms and Conditions</a>
+    </p>
+
+    <button class="fb-btn">
+      <img src="Assets/icons/facebook-app-round-icon.svg" alt="Facebook" />
+      Log in with Facebook
+    </button>
+
+    <div class="footer">
+      <img src="Assets/shopeasy (2).png" alt="Shopeasy" width="120px" height="auto"/> 
+    </div>
+  </div>
+
+  <!-- Sign Up Section -->
+  <section class="sign_up">
+    <div class="sign_up_container">
+      <div class="sign_up_top">
+        <img src="Assets/Shopeasy.png" alt="Shopeasy" width="80px" height="80px">
+        <h3>Welcome to Shopeasy</h3>
+        <p>Create a Shopeasy Account</p>
+      </div>
+
+      <form class="sign_up_box">
+        <label for="signup-email">Email or Mobile Number*</label>
+        <input type="text" id="signup-email" autocomplete="username" required />
+
+        <label for="signup-password">Password*</label>
+        <input type="password" id="signup-password" autocomplete="new-password" required />
+
+        <label for="confirm-password">Confirm Password*</label>
+        <input type="password" id="confirm-password" autocomplete="new-password" required />
+
+        <button class="Btn">Sign up</button>
+      </form>
+          
+      <div class="sign_up_bottom">
+        <p class="terms">
+          By continuing, you agree to Shopeasy's<br />
+          <a href="#" class="link-green">Terms and Conditions</a>
+        </p>
+                
+        <p> For further support, you may visit the <a href="#" class="link-green">Help Center</a> or contact our <a href="#" class="link-green">Customer service</a> team </p>
+        <img src="Assets/shopeasy (2).png" alt="Shopeasy" width="120px" height="auto" >
+      </div>
+    </div>
+  </section>
+  <!-- Bakery Section -->
+  <section class="Bakery">
+    <h2>Bakery</h2>
+    <div class="Bakery_items">
+      <div class="item-card">
+        <img src="Assets/bread.jpg" alt="Fresh Bread" />
+        <p>Bread</p>
+        <p>₦400</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="item-card">
+        <img src="Assets/croissant.jpg" alt="Croissant" />
+        <p>Croissant</p>
+        <p>₦300</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frozen Section -->
+  <section class="Frozen">
+    <h2>Frozen</h2>
+    <div class="Frozen_items">
+      <div class="item-card">
+        <img src="Assets/chicken.jpg" alt="Frozen Chicken" />
+        <p>Chicken</p>
+        <p>₦1500</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="item-card">
+        <img src="Assets/fish.jpg" alt="Frozen Fish" />
+        <p>Fish</p>
+        <p>₦1200</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fruits Section -->
+  <section class="Fruits">
+    <h2>Fruits</h2>
+    <div class="Fruits_items">
+      <div class="item-card">
+        <img src="Assets/apple.jpg" alt="Apple" />
+        <p>Apple</p>
+        <p>₦250</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="item-card">
+        <img src="Assets/banana.jpg" alt="Banana" />
+        <p>Banana</p>
+        <p>₦200</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Availability Section -->
+  <section class="availability">
+    <h2>Availability</h2>
+    <p>We deliver 7 days a week – anywhere in Rivers State and beyond!</p>
+    <ul>
+      <li>Bakery: 6AM – 9PM</li>
+      <li>Frozen: 24/7 Dispatch</li>
+      <li>Fruits: Fresh stock daily by 7AM</li>
+    </ul>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <a href="#Bakery">Bakery</a>
+      <a href="#Frozen">Frozen</a>
+      <a href="#Fruits">Fruits</a>
+      <a href="#snacks">Snacks</a>
+      <a href="#drinks">Drinks</a>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+      <!-- Cart items will be dynamically inserted here -->
+      <p>Your cart is empty for now 😅</p>
+    </div>
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </section>
+
+</body>
+</html>

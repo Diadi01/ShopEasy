@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: orange;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.checkout-form, .cart-summary {
+  flex: 1 1 45%;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input:focus, select:focus {
+  outline: none;
+  border-color: green;
+}
+button {
+  background: green;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+footer {
+  background: orange;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopEasy - Login</title>
+  <link rel="stylesheet" href="login.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Login - ShopEasy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-form">
+      <form id="loginForm">
+        <label>Email:<br><input type="email" name="email" required /></label><br><br>
+        <label>Password:<br><input type="password" name="password" required /></label><br><br>
+        <button type="submit">Login</button>
+      </form>
+      <div class="social-login">
+        <p>Or login with:</p>
+        <button class="google-login">Google</button>
+        <button class="facebook-login">Facebook</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+  </footer>
+
+  <!-- Google & Facebook SDK placeholders -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/en_US/sdk.js"></script>
+</body>
+</html>

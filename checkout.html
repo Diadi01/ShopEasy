@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopEasy - Checkout</title>
+  <link rel="stylesheet" href="checkout.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Checkout - ShopEasy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="account.html">Account</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="checkout-form">
+      <h2>Billing Information</h2>
+      <form id="checkoutForm">
+        <label>Full Name:<br><input type="text" name="name" required /></label><br><br>
+        <label>Email:<br><input type="email" name="email" required /></label><br><br>
+        <label>Address:<br><input type="text" name="address" required /></label><br><br>
+        <label>Phone Number:<br><input type="tel" name="phone" required /></label><br><br>
+        <label>Payment Method:<br>
+          <select name="payment">
+            <option value="Card">Credit/Debit Card</option>
+            <option value="Paypal">PayPal</option>
+            <option value="Bank">Bank Transfer</option>
+            <option value="Pay on delivery">Pay on delivery</option>
+          </select>
+        </label><br><br>
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+
+    <section class="cart-summary">
+      <h2>Order Summary</h2>
+      <div id="order-summary">
+        <!-- Populated by script.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
